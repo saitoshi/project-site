@@ -30,7 +30,7 @@ function Project() {
             <Card.Content>
               <Card.Header textAlign='center'>Algo-Trix</Card.Header>
               <Card.Meta textAlign='center'>
-                <span className='date'>ON GOING</span>
+                <span className='date'>2021-07-31</span>
               </Card.Meta>
               <Card.Description>
                 A Meteor and React based application created for ICS 427 Summer 2021 that provides college students additional practice for Algorithm outside of a textbook.
@@ -45,7 +45,7 @@ function Project() {
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
               <Card.Meta textAlign='center'>
-                <span className='date'>ON GOING</span>
+                <span className='date'>2021-07-31</span>
               </Card.Meta>
               <Card.Description>
                 A Meteor and React based planner targeted for Computer Science and Electrical Engineering students that students can do based on their Career Goals.

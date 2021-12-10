@@ -16,7 +16,7 @@ function Internaloha() {
         <br/>
         <Container text>
           <hr/>
-          For my Capstone Project course (<a href ="https://manoa.hawaii.edu/catalog/courses/ics-496-capstone-project-3/">ICS 469</a>) I have teamed up with Professor Johnson with the development of Internaloha Scrappers.
+          For my Capstone Project course (<a href ="https://manoa.hawaii.edu/catalog/courses/ics-496-capstone-project-3/">ICS 496</a>) I have teamed up with Professor Johnson with the development of Internaloha Scrappers.
           <ul>
             <li>Group Organization: <a href = "https://internaloha.github.io/documentation/">LINK</a></li>
             <li>GitHub Repository: <a href ="https://github.com/internaloha/scrapers">LINK</a></li>
