@@ -1,0 +1,52 @@
+/*center screen*/
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.bg-home  {
+  background-image: url("images/yokohama.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  /* Full height */
+  height: 100%;
+  margin: 0;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.ui.menu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: cyan;
+  border-bottom: 0 none !important;
+  box-shadow: none;
+}
+
+p {
+  font-size: 18px;
+}
+.push {
+  height: 50px;
+}
+.comment {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: blue;
+}
+span.bold-list {
+  font-weight: bold;
+  color: blue;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
