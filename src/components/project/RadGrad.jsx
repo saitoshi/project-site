@@ -92,7 +92,6 @@ function RadGrad2() {
         This internship gave me a preview on working as a Software Engineer.<br/>
         I think this gave me the opportunity to see what my current JavaScript and TypeScript skills. Furthermore, this internship was more
         freestyle than anything. We were given a list of task to select from to work on. By having the free choice, I can see what I am capable of and not.
-        <b>Link to the paper</b>
         Thus, giving me an area to see where I need to improve on.
         </Container>
         <div className ="push"/>
