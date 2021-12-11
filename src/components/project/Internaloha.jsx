@@ -47,10 +47,22 @@ function Internaloha() {
             <div className="comment">
               A screenshot of the code of Version 1 (on left) and Version 2 (on right) of Zip Recruiter Scraper.
             </div>
+          <br/>
             Overall, working on ZipRecruiter scraper provided a basic understanding on creating scrapers on the new format.
             <br/>
           <b><a href = "https://github.com/internaloha/scrapers/blob/main/scrapers/Scraper.monster.ts">Monster Scrapper</a></b><br/>
           For the second scraper, I wrote a scraper for Monster. The challenging part of Monster was to have it iterate it through multiple pages through a tab. Monster was similar to ZipRecruiter where the as long as there are information, the page can keep scrolling down through the list of internships. Unlike ZipRecruiter or other job websites, there was no div section name to create a while loop for. However, when looking at the source code using Google Chrome, there existed a div button where it stored the next section of listings. Thus, the scraper will keep extracting URL as long as the button exists.
+          <br/>
+          <code>
+            {"//while next link exists\n" +
+            "while (await super.selectorExists(nextLink)) {\n" +
+            "await this.page.click(nextPage);"
+            }
+          </code>
+          <div className="comment">
+            <br />
+            The code written to where the code inside the while loop operates as long as the nextLink button exists.
+          </div>
           <br/>
           Furthermore, the Monster page is set up where all of the necessary information is spread out. Thus, the scraper collects the URL, position title, and company name from the main page. Then, the scraper goes to the individual URL of that specific position title and extracts the description of the job and the job location. While the job location was written in the main page, it was simpler to extract it from the individual position page for an easier to readable code.
           <br/>
@@ -61,11 +73,36 @@ function Internaloha() {
           was scrapped from going to that certain URL. <br/>
           Furthermore, since the GlassDoor scrapper has multiple pages depending on the week, I created a for loop by scrapping the number of pages.
           <br/>
+          <code>
+            {"// retrieve the total number of pages\n" +
+            "let key = await super.getValue('div[class=\"cell middle d-none d-md-block py-sm\"]', 'innerText');\n" +
+            "key = key.split(' ');\n" +
+            "// get the highest amount of pages\n" +
+            "let numberOfPages = key[3];\n" +
+            "// for each j starting from 2 iterate the number of available pages of internship\n" +
+            "for (let j = 2; j < numberOfPages+1; j++) "}
+          </code>
+          <div className="comment">
+            <br />
+            The code written to extract the number of pages available to loop through.
+          </div>
           <br/>
           <b><a href ="https://github.com/internaloha/scrapers/blob/403de67709b04523503e6cb516c8555ef3dbdb73/scrapers/Scraper.stackoverflow.ts">StackOverFlow Scrapper</a></b><br/>
           This was the fourth scrapper I have worked on. <br/>
           Initially, the pattern was similar to others so writing it initially was not bad. However, after doing a test scrape I noticed that the total jobs scrapped were greater than the amount of internships available.
           I noticed that the scrapper scraped the recommended jobs. Therefore, to avoid this I extracted the number of internships listed on the page and then did the for loop based on that instead of the urls.length.
+          <br/>
+          <code>
+            {"// extract the number of internships currently available\n" +
+          "const key = await super.getValue('span[class=\"description fc-light fs-body1\"]', 'innerText');\n" +
+          "const jobNumber = key.match(/\\d+/gm);\n" +
+          "this.log.debug(`Amount of internships available: \\n${jobNumber[0]}`);\n" +
+          "for (let i = 0; i < jobNumber ; i++)"}
+          </code>
+          <div className="comment">
+            <br />
+            The code written to extract the number of internships.
+          </div>
           <br/>
           <b><u>Essay and Video</u></b><br/>
         As a requirement for ICS 496, the last week was spent on creating a poster, a report, and a video presentation of Internaloha. While the video and poster was created as a team, the paper itself was done individually.
