@@ -80,9 +80,13 @@ function RadGrad2() {
           During week 8 and 9, a pilot study was held with undergraduate students from Computer Science students. Depending on the participants preference,
           the pilot study was held on either Zoom or Discord. With the set of questions written by Professor Johnson, the student interns asked the participants
           what they felt about the current RadGrad system and how it could be further improved.
+          <br/>
           <b><u>Week 10</u></b><br/>
         The last week of RadGrad we participated in the UH Research Group Presentation. Here the group participated in a Zoom Meeting where we created a poster presenting the
-        results of the Pilot Study done during Week 8 and 9. Additionally, a research paper was written to show the res ult of the Pilot Study.
+        results of the Pilot Study done during Week 8 and 9. Additionally, <a href = "https://csdl.ics.hawaii.edu/techreports/2021/21-01/21-01.pdf">a research paper</a> was written to show the results of the Pilot Study and a poster was created
+          to present at the <a href = "https://manoa.hawaii.edu/undergrad/urop/summer-undergraduate-research-experience-sure/sure-symposium-3/">University of Hawaii SURE Symposium</a>.
+          <Image src={"https://www.radgrad.org/img/summer-2021/radgrad-summer-reu-2021-poster.png"} centered size = 'large'/>
+          <div className={'comment'}>The poster presented at the SURE symposium.</div>
         <br/>
         <b><u>Take Back From RadGrad Internship</u></b><br/>
         This internship gave me a preview on working as a Software Engineer.<br/>
