@@ -20,3 +20,5 @@ export { default as Math } from "./project/Math";
 export { default as Covid } from "./essay/Covid";
 export { default as RadGradPilotStudy } from "./essay/RadGradPilotStudy";
 export { default as Internaloha } from "./project/Internaloha";
+export { default as Menu } from "./Menu";
+export { default as SideMenu } from "./SideMenu";

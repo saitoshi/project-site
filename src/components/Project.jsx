@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Project() {
   return (
+      <div className='bg-project'>
       <Container>
         <br/>
         <Header as ="h2" textAlign="center">PROJECT</Header>
@@ -162,8 +163,7 @@ function Project() {
         </Container>
         <div className="push"/>
       </Container>
-
-
+      </div>
   );
 }
 

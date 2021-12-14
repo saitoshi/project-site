@@ -7,8 +7,22 @@
   text-align: center;
   min-height: 100vh;
 }
+.bg-project {
+    background-image: url("images/project.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    /* Full height */
+    height: 100%;
+    margin: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
 .bg-home  {
-  background-image: url("images/yokohama.png");
+  background-image: url("images/home.png");
   background-repeat: no-repeat;
   background-color: #cccccc;
   /* Full height */
@@ -21,10 +35,24 @@
   overflow: hidden;
 }
 
+.bg-essay {
+    background-image: url("images/essay.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    /* Full height */
+    height: 100%;
+    margin: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
 .ui.menu {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: cyan;
+  background-color: black;
   border-bottom: 0 none !important;
   box-shadow: none;
 }

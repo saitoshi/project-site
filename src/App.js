@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import cx from 'classnames';
 import {
   Navigation,
   Home,
@@ -23,7 +24,17 @@ import {
   RadGradPilotStudy,
   Internaloha
 } from "./components";
+import { Menu, SideMenu } from "./components";
+
 function App() {
+  const [toggle, setToggle] = useState(false);
+
+  const classes = cx('pusher', 'bottom', {'dimmed': toggle});
+
+  function toggleMenu() {
+    setToggle(!toggle);
+  }
+
   return (
       <div className="App">
         <Router>
