@@ -48,7 +48,7 @@ function Project() {
           <Card as = {NavLink} exact to = "/pilotstudy-radgrad">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
-              <Card.Header textAlign='center'>Rising With RadGrad: A Quantitative Study on Leveling Up Student Retention and Degree Success</Card.Header>
+              <Card.Header textAlign='center'>Rising With RadGrad</Card.Header>
               <Card.Meta textAlign='center'>
                 <span className='date'>07-30-21</span>
               </Card.Meta>
