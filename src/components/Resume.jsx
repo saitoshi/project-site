@@ -8,7 +8,7 @@ function Resume() {
   return (
       <Container style={pageStyle}>
         <br/>
-        <Header as = 'h2' textAlign='center'> RESUME</Header>
+        <Header as = 'h2' textAlign='center'> ABOUT</Header>
       <Container text>
         <p>
         <hr/>

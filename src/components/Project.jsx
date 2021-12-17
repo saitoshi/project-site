@@ -11,7 +11,7 @@ function Project() {
       <div className='bg-project'>
       <Container style={pageStyle}>
         <br/>
-        <Header as ="h2" textAlign="center" inverted>WORKS</Header>
+        <Header as ="h2" textAlign="center">WORKS</Header>
         <div className='comment'>Click on the cards if you would like to read more on the project.</div>
         <Container text>
         <hr/>

@@ -11,7 +11,7 @@ function SideMenu() {
         animation='overlay'
         icon='labeled'
         inverted
-        color= 'teal'
+        color= 'blue'
         vertical
         visible
         width='thin'>
