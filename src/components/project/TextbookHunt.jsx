@@ -3,8 +3,12 @@ import '../style.css';
 import { Header, Container, Grid, Image } from 'semantic-ui-react';
 
 function TextbookHunt() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as ="h2" textAlign="center">Textbook Hunt</Header>
         <Grid textAlign = "center">

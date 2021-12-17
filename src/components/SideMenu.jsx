@@ -1,23 +1,26 @@
-import React, { useEffect } from 'react';
-import cn from 'classnames';
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink, withRouter } from "react-router-dom";
+import { Menu, Sticky, Sidebar, Icon, Image } from 'semantic-ui-react';
+import './style.css';
 
-function SideMenu(props) {
-  const classes = cn('ui','sidebar', 'overlay','top','inverted','menu','animating',
-      {'visible': props.toggleMenu}
-  );
-
+function SideMenu() {
   return (
-      <div className={classes}>
-        <ul>
-          <li className="item link" as={NavLink} exact to={"/"}>SHIN SAITO</li>
-          <li className="item link" as={NavLink} exact to={"/jpn"}>日本語</li>
-          <li className="item link" as={NavLink} exact to={"/resume"}>RESUME</li>
-          <li className="item link" as={NavLink} exact to={"/project"}>PROJECT</li>
-          <li className="item link" as={NavLink} exact to={"/essay"}>ESSAY</li>
-        </ul>
-      </div>
-  )
-}
+      <Sticky>
+      <Sidebar
+        as = {Menu}
+        animation='overlay'
+        icon='labeled'
+        inverted
+        color= 'teal'
+        vertical
+        visible
+        width='thin'>
+        <Menu.Item header as={NavLink} exact to={"/"}><Icon name='user circle outline'/>SHIN'S WORK </Menu.Item>
+        <Menu.Item as={NavLink} exact to ={"/resume"}><Icon name='star outline'/> ABOUT</Menu.Item>
+        <Menu.Item as={NavLink} exact to ={"/project"}><Icon name ='edit outline'/> WORK</Menu.Item>
+      </Sidebar>
+      </Sticky>
 
+  );
+}
 export default SideMenu;

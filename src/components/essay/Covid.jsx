@@ -3,8 +3,12 @@ import { Header, Container, Grid } from 'semantic-ui-react';
 import '../style.css';
 
 function Covid() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br />
         <Header as="h2" textAlign="center">Pandemic Lockdown</Header>
         <Grid textAlign="center">

@@ -1,11 +1,14 @@
 import React from "react";
 import { Header, Container, Grid, Image, Button } from 'semantic-ui-react';
 import '../style.css';
-import { NavLink } from 'react-router-dom';
 
 function RadGradPilotStudy() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as = 'h2' textAlign="center">Rising With RadGrad <br/>A Quantitative Study on Leveling Up Student Retention and Degree Success</Header>
         <Grid textAlign = "center">

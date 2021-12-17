@@ -2,8 +2,12 @@ import React from "react";
 import { Header, Container, Grid, Image } from 'semantic-ui-react';
 
 function CrossCountry() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as ="h2" textAlign="center">Algo-Trix</Header>
         <Grid textAlign = "center">

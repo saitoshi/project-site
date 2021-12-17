@@ -2,8 +2,12 @@ import React from "react";
 import { Header, Container, Grid } from 'semantic-ui-react';
 
 function Math() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as ="h2" textAlign="center">Hawaii Math State Challenge</Header>
        <Grid textAlign='center'><span className='bold-list'>2020-02-15</span> </Grid>

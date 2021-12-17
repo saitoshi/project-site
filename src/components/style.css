@@ -8,7 +8,7 @@
   min-height: 100vh;
 }
 .bg-project {
-    background-image: url("images/project.png");
+    background-image: url("images/essay.png");
     background-repeat: no-repeat;
     background-color: #cccccc;
     /* Full height */
@@ -78,3 +78,4 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

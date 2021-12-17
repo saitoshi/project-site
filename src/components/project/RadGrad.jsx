@@ -3,8 +3,12 @@ import { Header, Container, Grid, Image } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
 function RadGrad2() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as ="h2" textAlign="center">RadGrad 2.0</Header>
         <Grid textAlign = "center">

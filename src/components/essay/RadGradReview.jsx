@@ -3,8 +3,13 @@ import { Header, Container, Grid, Image } from 'semantic-ui-react';
 import '../style.css';
 
 function RadGradReview() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
+
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as ="h2" textAlign="center">A Critical Review Of RadGrad</Header>
         <Grid textAlign = "center">

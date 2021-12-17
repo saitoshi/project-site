@@ -1,8 +1,12 @@
 import React from "react";
 import { Header, Container } from 'semantic-ui-react';
 function Resume() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
         <br/>
         <Header as = 'h2' textAlign='center'> RESUME</Header>
       <Container text>

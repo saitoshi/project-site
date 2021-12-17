@@ -7,7 +7,6 @@ import {
   About,
   Resume,
   Project,
-  Essay,
   JPN,
   RadGrad,
   Shocking,
@@ -24,7 +23,7 @@ import {
   RadGradPilotStudy,
   Internaloha
 } from "./components";
-import { Menu, SideMenu } from "./components";
+import { SideMenu } from "./components";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -38,14 +37,13 @@ function App() {
   return (
       <div className="App">
         <Router>
-          <Navigation />
+          <SideMenu/>
           <Switch>
             <Route path="/" exact component={() => <Home />} />
             <Route path="/about" exact component={() => <About />} />
             <Route path="/jpn" exact component={() => <JPN />} />
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/project" exact component={() => <Project />} />
-            <Route path="/essay" exact component={() => <Essay />} />
             <Route path="/radgrad" exact component={() => <RadGrad />} />
             <Route path="/math" exact component={() => <Math />} />
             <Route path="/uhmath" exact component={() => <Uhmath />} />
