@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Container, Grid, Image } from 'semantic-ui-react';
+import { Header, Container, Grid, Image, Button, Icon } from 'semantic-ui-react';
 function Resume() {
   const pageStyle = {
     paddingLeft: '10em',
@@ -11,12 +11,17 @@ function Resume() {
         <hr/>
         <br/>
         <Grid columns = {2} divided>
-          <Grid.Column>
+          <Grid.Column textAlign = 'center'>
             <div className='push'/>
             <Image src="https://github.com/saitoshi/images/blob/main/about.jpg?raw=true" centered size='large' circular/>
+            <Header as = 'h3' textAlign = 'center'>SHIN</Header>
+            <Button.Group centred>
+              <Button><Icon name='github'/></Button>
+              <Button color='red' href="mailto:saitoshi2145@gmail.com"><Icon name = 'envelope'/></Button>
+              <Button color='twitter' href="https://twitter.com/iseyadj45"><Icon name='twitter'/></Button>
+            </Button.Group>
           </Grid.Column>
           <Grid.Column>
-            <Header as = 'h3' textAlign = 'center'>SHIN</Header>
             <ul>
               <li><p><b>Bachelor of Science in Computer Science and Mathematics</b><br/>
               University of Hawaii at Manoa, Honolulu, HI<br/>
