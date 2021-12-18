@@ -58,7 +58,7 @@ function Shocking() {
             <br/>
             For the last milestone, the main goal was to clean up the codes or functions on the application. For instance, I checked to see whether the files had appropriate comments or not. Additionally, per request of the customer a contact to Admin page was created.
             <br/>
-            <Image src={"https://saitoshi.github.io/images/shockingemissions.gif"} size='large' centered />
+            <Image src={"https://github.com/saitoshi/images/blob/main/shockingemission/shockingemissions.gif?raw=true"} size='large' centered />
             <div className="comment">The sample gif of the application itself.</div>
             <u><b>Challeges to the Project</b></u>
             <ul>
@@ -70,7 +70,7 @@ function Shocking() {
               <li> <b> Awkward Silences</b></li>
               With work being online, there are moments of “Awkward Silences”. However, I believe that they are a waste of time. To avoid silence during group meetings, I tried to ask questions or start a conversation to see which areas need to be worked on.
             </ul>
-            <Image src={"https://saitoshi.github.io/images/discord.png"} size='large' centered/>
+            <Image src={"https://github.com/saitoshi/images/blob/main/shockingemission/discord.png?raw=true"} size='large' centered/>
             <div className="comment">A screenshot of the group Discord chat server.</div>
             <br/>
             <u><b>Take Back From ICS 414</b></u>

@@ -21,7 +21,7 @@ function RadGradFeedback() {
           <hr/>
           <p>
             Life is a truly unfair and cruel place. They say if you have a dream you should be able to pursue it. However, if you do not have the right credentials, you are more likely not allowed to do otherwise. This affects many freshmen in college as they enter a STEM field. Most of them have big dreams, but because of their poor resources, many end up in despair. If only if there was a tool that provided students with assistance in Computer Science at least. Well, there is. It is called RadGrad.
-            <Image src={"https://saitoshi.github.io/images/RadGradHome.png"} size='large' centered />
+            <Image src={"https://github.com/saitoshi/images/blob/main/radgradtask/RadGradHome.png?raw=true"} size='large' centered />
             <div className="comment"> A screenshot of when user logs into RadGrad.</div>
             <h4>Purpose of RadGrad</h4>
             RadGrad is an application that provides Computer Science students an incentive to do better. To help those

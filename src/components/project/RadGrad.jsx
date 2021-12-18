@@ -25,7 +25,7 @@ function RadGrad2() {
           RadGrad is an application in which registered ICS students can use as a undergraduate career planner.
           For example, if a certain student is interested in cybersecurity, using RadGrad they are able to see the recommended courses and possible intern programs.
           Furthermore, RadGrad also has a point system in which as students advance through their studies they level up.
-          <Image src={"https://saitoshi.github.io/images/RadGradHome.png"} size='large' centered/>
+          <Image src={"https://github.com/saitoshi/images/blob/main/radgradtask/RadGradHome.png?raw=true"} size='large' centered/>
           <div className="comment"> A sample landing page of RadGrad (as of May 26, 2021)</div>
           <ul>
             <li> For the repository <a href="https://github.com/radgrad/radgrad2">page</a></li>

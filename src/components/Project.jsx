@@ -30,7 +30,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/radgrad">
-            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/radgradtask/RadGrad.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
               <Card.Meta textAlign='center'>
@@ -45,7 +45,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/pilotstudy-radgrad">
-            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/radgradtask/RadGrad.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>Rising With RadGrad</Card.Header>
               <Card.Meta textAlign='center'>
@@ -74,7 +74,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card　as = {NavLink} exact to = "/radgradstart">
-            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/radgradtask/RadGrad.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Initial Join Up</Card.Header>
               <Card.Meta textAlign='center'>
@@ -89,7 +89,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card　as = {NavLink} exact to = "/radgradfeedback">
-            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/radgradtask/RadGrad.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Feedback</Card.Header>
               <Card.Meta textAlign='center'>
@@ -105,7 +105,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card　as = {NavLink} exact to = "/radgradreview">
-            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/radgradtask/RadGrad.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Review</Card.Header>
               <Card.Meta textAlign='center'>
@@ -121,7 +121,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/shocking">
-            <Image src="https://saitoshi.github.io/images/shocking.png" />
+            <Image src="https://github.com/saitoshi/images/blob/main/shockingemission/shocking.png?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>Shocking Emissions</Card.Header>
               <Card.Meta textAlign='center'>
@@ -136,7 +136,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/tregear">
-            <Image src="https://saitoshi.github.io/images/tregear.png" />
+            <Image src="https://github.com/saitoshi/images/blob/main/jpn/tregear.png?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>Tregear Story Translation</Card.Header>
               <Card.Meta textAlign='center'>
@@ -150,7 +150,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/uhmath">
-            <Image src="https://saitoshi.github.io/images/math.jpeg" />
+            <Image src="https://github.com/saitoshi/images/blob/main/math/math.jpeg?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>UH Math Review</Card.Header>
               <Card.Meta textAlign='center'>
@@ -165,7 +165,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/textbookhunt">
-            <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
+            <Image src="https://github.com/saitoshi/images/blob/main/textbookhunt/textbookhunt.png?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>Textbook Hunt</Card.Header>
               <Card.Meta textAlign='center'>
@@ -179,7 +179,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/math" >
-            <Image src="https://saitoshi.github.io/images/mathchallenge.jpg" />
+            <Image src="https://github.com/saitoshi/images/blob/main/math/mathchallenge.jpeg?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>Hawaii Math State Challenge</Card.Header>
               <Card.Meta textAlign='center'>
@@ -208,7 +208,7 @@ function Project() {
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/tokusatsu">
-            <Image src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Toei-Tokusatsu-header.png" />
+            <Image src="https://github.com/saitoshi/images/blob/main/jpn/Toei-Tokusatsu-header.png?raw=true" />
             <Card.Content>
               <Card.Header textAlign='center'>Japanese Tokusatsu Paper</Card.Header>
               <Card.Meta textAlign='center'>
