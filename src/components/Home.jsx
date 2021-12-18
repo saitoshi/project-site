@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import { Button, Icon, Grid, Header, Image, Sticky, Container } from 'semantic-ui-react';
+import { Button, Icon, Grid, Header, Image, Container } from 'semantic-ui-react';
 
 
 function Home() {

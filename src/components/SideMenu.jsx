@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink, withRouter } from "react-router-dom";
-import { Menu, Sticky, Sidebar, Icon, Image } from 'semantic-ui-react';
+import { NavLink } from "react-router-dom";
+import { Menu, Sticky, Sidebar, Icon } from 'semantic-ui-react';
 import './style.css';
 
 function SideMenu() {

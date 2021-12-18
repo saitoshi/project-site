@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Container, Card, Image, Sticky, Grid, Button } from 'semantic-ui-react';
+import { Header, Container, Card, Image } from 'semantic-ui-react';
 import { NavLink } from "react-router-dom";
 
 function Project() {
