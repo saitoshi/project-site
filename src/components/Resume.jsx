@@ -29,8 +29,10 @@ function Resume() {
             <p>
               <ul>
                 <li>Software Engineering</li>
-                <li>Japanese to English</li>
+                <li>Japanese to English Translation</li>
                 <li>Data Analysis</li>
+                <li>Design and Story Telling</li>
+                <li>Education</li>
               </ul>
             </p>
             <Header as = 'h3' textAlign = 'center'>SKILLS</Header>
