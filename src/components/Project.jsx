@@ -60,6 +60,20 @@ function Project() {
               Pilot Study Research
             </Card.Content>
           </Card>
+          <Card as = {NavLink} exact to = "/crosscountry">
+            <Image src="https://raw.githubusercontent.com/saitoshi/images/main/algotrix.png"/>
+            <Card.Content>
+              <Card.Header textAlign='center'>Algo-Trix</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2021-07-01</span>
+              </Card.Meta>
+              <Card.Description>
+                An application created to help students struggling in Algorithm.             </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering<br/>
+            </Card.Content>
+          </Card>
           <Card　as = {NavLink} exact to = "/radgradstart">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>

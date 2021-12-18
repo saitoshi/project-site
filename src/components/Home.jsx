@@ -14,7 +14,6 @@ function Home() {
     <div className="center-screen">
       <Image src='https://saitoshi.github.io/images/profile.jpeg' centered size='medium' circular/>
       <Header as ='h1' textAlign='center'>Shin Saito</Header>
-      <Header as ='h1' textAlign='center'>B.S. in Computer Science and Mathematics</Header>
       <Header as ='h3' textAlign='center'>WORK MORE & PLAY LESS</Header>
       <Grid>
         <Grid.Column textAlign="center">

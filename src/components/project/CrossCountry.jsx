@@ -14,7 +14,7 @@ function CrossCountry() {
           <p textAlign="center"> Software Engineering, Software Quality Assurance, React <br/></p>
         </Grid>
         <Grid textAlign ="center">
-          <p textAlign ="center">  <span className="bold-list"> On Going</span></p>
+          <p textAlign ="center">  2021-07-01</p>
         </Grid>
         <Container text>
           <hr/>
