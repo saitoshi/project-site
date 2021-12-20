@@ -41,13 +41,10 @@ function About() {
                 <li>日英通訳・翻訳</li>
                 <li>データーサイエンス</li>
                 <li>イラスト・デザイン</li>
-
               </ul>
-
             </Grid.Column>
           </Grid>
-        
-
+          
 
         </Container>
       </Container>
