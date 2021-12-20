@@ -47,7 +47,7 @@ function Resume() {
                   JavaScript, Python, C, HTML, CSS, Semantic UI
                 </li>
                 <li><b>Toolsets/OS</b><br/>
-                MacOS, Git/GitHub, Windows, Intellij IDEA
+                MacOS, Git/GitHub, Windows, Intellij IDEA, Visual Studio Code
                 </li>
                 <li><b>Foreign Languages</b><br/>
                 TOIEC Listen and Reading: 975 <br/>

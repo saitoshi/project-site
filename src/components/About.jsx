@@ -42,9 +42,50 @@ function About() {
                 <li>データーサイエンス</li>
                 <li>イラスト・デザイン</li>
               </ul>
+              <Header as = 'h3' textAlign = 'center'>スキル</Header>
+              <ul>
+              <li><b>主な言語とフレームワーク</b><br/>
+                  JavaScript, Python, C, HTML, CSS, Semantic UI
+                </li>
+                <li><b>基本使用のツールとOS</b><br/>
+                MacOS, Git/GitHub, Windows, Intellij IDEA, Visual Studio Code
+                </li>
+              </ul>
             </Grid.Column>
           </Grid>
-          
+          <Header as = 'h3' textAlign = 'center'>業務履歴</Header>
+          <hr/>
+          <ul>
+          <li><b>リサーチアシスタント・Collaborative Software Development Laboratory</b><br/>
+          21年8月～21年12月 <br/>
+          インターアロハと言う学生向けインターン探しアルバイトアプリの開発チームでVersion 2のプログラムやコードを作成。
+          </li>
+          <li><b>Mathematics Learning Assistant・ハワイ大学マノア校</b><br/>
+          19年1月～21年12月<br/>
+          ハワイ大学マノア校で数学の授業をアシスタント講師として担当しました。
+          </li>
+          <li><b>Media and Event Assistant・ハワイ大学マノア校</b><br/>
+            June 2020 to December 2021 <br/>
+            Assisted the Better Tomorrow Speaker Series team by updating its website, social media, and providing the technical support for Zoom Webinars.
+          </li>
+          <li><b>Summer Research Assitant, RadGrad NSF Research Experience for Undergraduates program</b>
+          <br/>
+          21年5月～21年7月 <br/>
+          RadGradと言う学生向けアプリのバージョン2の作成チームをインターンとして参加しました。
+          </li>
+          <li><b>リサーチアシスタント・ハワイ大学マノア校</b><br/>
+          May 2020 to April 2021 <br/>
+          データーアナリストとしてハワイのオアフ島とマウイ島の水利用のデーター管理を担当しました。 </li>
+          <li><b>Tutor and Grader, University of Hawaii at Manoa, Mathematics Department</b><br/>
+          August 2019 to December 2020 <br/>
+            ハワイ大学マノア学校の学生用のアシスタントルームでチューターとしてアルバイトをしました・
+          </li>
+          <li><b>日英通訳士,・ハワイ大学マノア校旅行産業経営学部</b><br/>
+          19年1月～20年2月<br/>
+          ハワイ大学マノア校旅行産業経営学部で日本語から英語の通訳を担当。
+          </li>
+        </ul>
+
 
         </Container>
       </Container>
