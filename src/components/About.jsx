@@ -85,9 +85,8 @@ function About() {
           ハワイ大学マノア校旅行産業経営学部で日本語から英語の通訳を担当。
           </li>
         </ul>
-
-
         </Container>
+        <div className="push"/>
       </Container>
   );
 }
