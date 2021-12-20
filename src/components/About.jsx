@@ -1,25 +1,53 @@
 import React from "react";
-import { Header, Container } from 'semantic-ui-react';
+import { Header, Container, Grid, Image, Button, Icon } from 'semantic-ui-react';
 
 function About() {
+  const pageStyle = {
+    paddingLeft: '10em',
+    paddingTop: '1em',
+  };
   return (
-      <Container>
+      <Container style={pageStyle}>
+        <Header as = 'h2' textAlign='center'>自己紹介</Header>
+        <hr/>
         <br/>
-        <Header as ="h2" textAlign="center">ABOUT ME</Header>
         <Container text>
-          <hr/>
-          <p>My name is <b>Shin</b>. Currently an undergraduate student studying <b>Computer Science and Mathematics</b>.
-          My interests are in Software Engineering, Mathematic Teaching, and Design.
-            <br/>
-            The current three mottos I follow for my daily life:
-            <ol>
-              <li>Work More And Play Less</li>
-              <li>Take Both Of Quality and Quantity</li>
-            </ol>
-          </p>
-          <Header as ="h2" textAlign="left">COURSEWORK</Header>
-          <hr/>
-          <p>Here are some of my course work that I have written for both my computer science and mathematics course.</p>
+          <Grid columns={2} divided>
+            <Grid.Column textAlign="center">
+            <Image src="https://github.com/saitoshi/images/blob/main/about.jpg?raw=true" centered size='large' circular/>
+            <Header as = 'h3' textAlign = 'center'>SHIN</Header>
+            <Button.Group centered>
+            <Button color='twitter' size='medium' href="https://twitter.com/iseyadj45">
+                <Icon name='twitter'/>
+            </Button>
+            <Button color='red' size='medium' href="mailto:saitoshi2145@gmail.com">
+              <Icon name='envelope'/> 
+            </Button>
+            <Button color='github' size='small' href="https://github.com/saitoshi">
+              <Icon name='github'/>
+            </Button>
+          </Button.Group>
+            </Grid.Column>
+            <Grid.Column>
+              <ul>
+                <li>TOEIC： 975点</li>
+                <li>JLPT: N1 N2</li>
+                <li>ハワイ大学マノア校<br/>
+                数学とコンピューターサイエンスダブル専攻</li>
+              </ul>
+              <Header as = 'h3' textAlign = 'center'>趣味</Header>
+              <ul>
+                <li>ソフトウェアエンジニア</li>
+                <li>日英通訳・翻訳</li>
+                <li>データーサイエンス</li>
+                <li>イラスト・デザイン</li>
+
+              </ul>
+
+            </Grid.Column>
+          </Grid>
+        
+
 
         </Container>
       </Container>
