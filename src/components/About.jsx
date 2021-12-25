@@ -15,7 +15,7 @@ function About() {
           <Grid columns={2} divided>
             <Grid.Column textAlign="center">
             <Image src="https://github.com/saitoshi/images/blob/main/about.jpg?raw=true" centered size='large' circular/>
-            <Header as = 'h3' textAlign = 'center'>SHIN</Header>
+            <Header as = 'h3' textAlign = 'center'>SHIN SAITO</Header>
             <Button.Group centered>
             <Button color='twitter' size='medium' href="https://twitter.com/iseyadj45">
                 <Icon name='twitter'/>
