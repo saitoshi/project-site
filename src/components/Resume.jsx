@@ -61,11 +61,18 @@ function Resume() {
         <hr/>
         <p>
         <ul>
-          <li><b>Research Assistant in the Collaborative Software Development Laboratory</b><br/>
+          <li><b>Intro Level Software Engineer, <a href ="https://beep.co.jp/">BEEP</a> </b><br/>
+          December 2021 to Present <br/>
+          Worked as a Software Engineer Intern at company BEEP located in Kamakura area.  
+          </li>
+          <li><b>Cram School English and Programming Tutor, <a href="https://www.edi-lab.com/">EdiLabo Academy</a></b><br/>
+          December 2021 to Presnet <br/>
+          Worked as a Cram School Tutor at EdiLabo Academy teaching primary school students basic Python programming and English.</li>
+          <li><b>Research Assistant, <a href="https://csdl.ics.hawaii.edu/">Collaborative Software Development Laboratory</a></b><br/>
             August to December 2021 <br/>
             Worked under Professor Johnson and Professor Moore on improving Internaloha.
           </li>
-          <li><b>Mathematics Learning Assistant, University of Hawaii at Manoa</b><br/>
+          <li><b>Mathematics Learning Assistant, <a href ="https://math.hawaii.edu/wordpress/">Mathematics Department at University of Hawaii at Manoa</a></b><br/>
           January 2019 to December 2021 <br/>
           Worked as an undergraduate Teaching Assistant for the math department at University of Hawaii at Manoa.
           Helped with Calculus 1, 2, Differential Equation, and Precalculus related courses.
@@ -74,15 +81,15 @@ function Resume() {
             June 2020 to December 2021 <br/>
             Assisted the Better Tomorrow Speaker Series team by updating its website, social media, and providing the technical support for Zoom Webinars.
           </li>
-          <li><b>Summer Research Assitant, RadGrad NSF Research Experience for Undergraduates program</b>
+          <li><b>Summer Research Assitant, <a href="https://csdl.ics.hawaii.edu/">RadGrad NSF Research Experience for Undergraduates Program</a></b>
           <br/>
             May 2021 to August 2021 <br/>
             Worked under the supervision of Dr. Johnson and Dr. Moore on upgrading RadGrad based on student feedback.
           </li>
-          <li><b>Research Assistant, University of Hawaii at Manoa</b><br/>
+          <li><b>Research Assistant, <a href ="http://olesonlab.org/">Oleson Lab at University of Hawaii at Manoa</a></b><br/>
           May 2020 to April 2021 <br/>
           Worked under Professor Oleson,  as a data analyst for a research program centering around the waste water usage in the islands of Oahu and Maui. </li>
-          <li><b>Tutor and Grader, University of Hawaii at Manoa, Mathematics Department</b><br/>
+          <li><b>Tutor and Grader, <a href ="https://math.hawaii.edu/wordpress/">Mathematics Department at University of Hawaii at Manoa</a></b><br/>
           August 2019 to December 2020 <br/>
             Tutored introductory mathematics courses at the Learning Emporium Center and graded for 300 level math courses.
           </li>
