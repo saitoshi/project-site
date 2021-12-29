@@ -19,7 +19,8 @@ import {
   CrossCountry,
   Covid,
   RadGradPilotStudy,
-  Internaloha
+  Internaloha, 
+  NewYears2022
 } from "./components";
 import { SideMenu } from "./components";
 
@@ -49,6 +50,7 @@ function App() {
             <Route path="/covid" exact component={() => <Covid />} />
             <Route path="/pilotstudy-radgrad" exact component={() => <RadGradPilotStudy />} />
             <Route path="/internaloha" exact component={() => <Internaloha/>}/>
+            <Route path="/newyear2022" exact component={() => <NewYears2022/>}/>
           </Switch>
         </Router>
       </div>
