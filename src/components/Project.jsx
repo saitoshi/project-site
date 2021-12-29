@@ -10,6 +10,7 @@ function Project() {
   return (
       <div className='bg-project'>
       <Container style={pageStyle}>
+        <Container fluid>
         <Header as ="h2" textAlign="center">WORKS</Header>
         <div className='comment'>Click on the cards if you would like to read more on the project.</div>
         <Container text>
@@ -226,6 +227,7 @@ function Project() {
 
 
         </Card.Group>
+        </Container>
         </Container>
         <div className="push"/>
       </Container>
