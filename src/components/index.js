@@ -4,6 +4,7 @@ export { default as JPN } from "./JPN";
 export { default as About } from "./About";
 export { default as Resume } from "./Resume";
 export { default as Project } from "./Project";
+export { default as Blog } from "./Blog";
 export { default as RadGrad } from "./project/RadGrad";
 export { default as Shocking } from "./project/Shocking";
 export { default as TextbookHunt } from "./project/TextbookHunt";

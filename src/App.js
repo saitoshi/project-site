@@ -20,7 +20,8 @@ import {
   Covid,
   RadGradPilotStudy,
   Internaloha, 
-  NewYears2022
+  NewYears2022,
+  Blog
 } from "./components";
 import { SideMenu } from "./components";
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/jpn" exact component={() => <JPN />} />
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/project" exact component={() => <Project />} />
+            <Route path="/blog" exact component={() => <Blog/>}/>
             <Route path="/radgrad" exact component={() => <RadGrad />} />
             <Route path="/math" exact component={() => <Math />} />
             <Route path="/uhmath" exact component={() => <Uhmath />} />
