@@ -42,6 +42,7 @@ class SideMenu extends React.Component {
            <Button fluid style={{ zIndex: 2 }} icon color='teal' disabled={false} onClick={this.handleShowClick}>
        <Icon name='bars'/>
        <br/>
+       <br/>
        <Menu.Item header as={NavLink} exact to={"/"}><Icon name='user circle outline'/>SHIN'S WORK </Menu.Item>
         <Menu.Item as={NavLink} exact to ={"/resume"}><Icon name='star outline'/> ABOUT</Menu.Item>
         <Menu.Item as={NavLink} exact to ={"/project"}><Icon name ='edit outline'/> WORK</Menu.Item>

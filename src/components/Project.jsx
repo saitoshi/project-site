@@ -3,13 +3,9 @@ import { Header, Container, Card, Image } from 'semantic-ui-react';
 import { NavLink } from "react-router-dom";
 
 function Project() {
-  const pageStyle = {
-    paddingLeft: '10em',
-    paddingTop: '1em',
-  };
   return (
       <div className='bg-project'>
-      <Container style={pageStyle}>
+      <Container>
         <Container fluid>
         <Header as ="h2" textAlign="center">WORKS</Header>
         <div className='comment'>Click on the cards if you would like to read more on the project.</div>
