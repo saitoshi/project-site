@@ -11,7 +11,7 @@ function Project() {
         <div className='comment'>Click on the cards if you would like to read more on the project.</div>
         <Container text>
         <hr/>
-        <Card.Group itemsPerRow={3} centered>
+        <Card.Group itemsPerRow={2} centered>
           <Card as = {NavLink} exact to = "/internaloha">
             <Image src="https://internaloha.github.io/documentation/img/internaloha-logo.png"/>
             <Card.Content>
